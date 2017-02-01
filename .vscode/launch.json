@@ -1,0 +1,5 @@
+[
+    { "key": "shift+space",          "command": "editor.action.triggerSuggest",
+                                     "when": "editorHasCompletionItemProvider && editorTextFocus && !editorReadonly" },
+    { "key": "shift+cmd+t",           "command": "go.test.package" }
+]
